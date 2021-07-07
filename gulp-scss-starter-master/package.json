@@ -30,8 +30,8 @@
         "@babel/core": "^7.4.3",
         "@babel/preset-env": "^7.4.3",
         "@babel/register": "^7.4.0",
-        "babel-eslint": "^10.0.1",
         "babel-loader": "^8.0.5",
+	   "babel-eslint": "^10",
         "bem-tools-core": "bem-tools/bem-tools-core",
         "bem-tools-create": "bem-tools/bem-tools-create",
         "browser-sync": "^2.23.6",
@@ -71,6 +71,7 @@
         "yargs": "^15.4.1"
     },
     "dependencies": {
+        "babel-eslint": "^10.1.0",
         "smart-grid": "^2.1.2"
     },
     "husky": {
